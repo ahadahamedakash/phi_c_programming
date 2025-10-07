@@ -12,6 +12,5 @@ int main()
             3. Logical ( && || ! )
     */
 
-
     return 0;
 }
