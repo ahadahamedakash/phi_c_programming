@@ -7,17 +7,22 @@ int main()
 
     scanf("%d", &n);
 
-    bool isPrime = false;
+    bool isPrime = true;
 
-    for (int i = 2; i < n; i++)
+    if (n == 2)
     {
-        if (n % i == 0)
-        {
-            isPrime = false;
-            break;
-        }
-
         isPrime = true;
+    }
+    else if (n > 2)
+    {
+        for (int i = 2; i * i <= n; i++)
+        {
+            if (n % i == 0)
+            {
+                isPrime = false;
+                break;
+            }
+        }
     }
 
     if (isPrime)
