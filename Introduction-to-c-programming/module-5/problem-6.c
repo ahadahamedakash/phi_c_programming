@@ -48,3 +48,28 @@ int main()
 /*
     PROBLEM LINK: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/K
 */
+
+#include <stdio.h>
+
+int main()
+{
+    int a, b, c;
+    scanf("%d %d %d", &a, &b, &c);
+
+    int minNum = a;
+    int maxNum = a;
+
+    if (minNum > b)
+        minNum = b;
+    if (minNum > c)
+        minNum = c;
+
+    if (maxNum < b)
+        maxNum = b;
+    if (maxNum < c)
+        maxNum = c;
+
+    printf("%d %d", minNum, maxNum);
+
+    return 0;
+}
