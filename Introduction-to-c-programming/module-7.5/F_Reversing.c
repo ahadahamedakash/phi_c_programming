@@ -16,9 +16,8 @@ int main()
     {
 
         long long int temp1 = arr[i];
-        long long int temp2 = arr[n - 1 - i];
 
-        arr[i] = temp2;
+        arr[i] = arr[n - 1 - i];
         arr[n - 1 - i] = temp1;
     }
 

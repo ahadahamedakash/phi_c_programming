@@ -28,3 +28,21 @@ int main()
 
     return 0;
 }
+
+// int n;
+// scanf("%d", &n);
+
+// long long target;
+// scanf("%lld", &target);
+
+// for (int i = 0; i < n; i++) {
+//     long long x;
+//     scanf("%lld", &x);
+//     if (x == target) {
+//         printf("%d\n", i);
+//         return 0;
+//     }
+// }
+
+// printf("-1\n");
+

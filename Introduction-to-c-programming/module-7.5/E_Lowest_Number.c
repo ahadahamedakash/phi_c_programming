@@ -15,7 +15,7 @@ int main()
     }
 
     int minNum = INT_MAX;
-    int index = 0;
+    int index = -1;
 
     for (int i = 0; i < n; i++)
     {
@@ -30,6 +30,25 @@ int main()
 
     return 0;
 }
+
+// int main()
+// {
+//     int n;
+//     scanf("%d", &n);
+
+//     int minNum = INT_MAX, index = 0;
+//     for (int i = 1; i <= n; i++)
+//     {
+//         int x;
+//         scanf("%d", &x);
+//         if (x < minNum)
+//         {
+//             minNum = x;
+//             index = i;
+//         }
+//     }
+//     printf("%d %d\n", minNum, index);
+// }
 
 /*
     PROBLEM LINK: https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/E

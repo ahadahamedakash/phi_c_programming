@@ -32,6 +32,15 @@ int main()
     return 0;
 }
 
+// int n;
+// scanf("%d", &n);
+
+// for (int i = 0; i < n; i++) {
+//     int x;
+//     scanf("%d", &x);
+//     if (x <= 10) printf("A[%d] = %d\n", i, x);
+// }
+
 /*
     PROBLEM LINK: https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/C
 */
