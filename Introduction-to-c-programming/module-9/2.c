@@ -15,7 +15,7 @@ int main()
     int index;
     scanf("%d", &index);
 
-    for (int i = index; i < n; i++)
+    for (int i = index; i < n - 1; i++)
     {
         arr[i] = arr[i + 1];
     }
